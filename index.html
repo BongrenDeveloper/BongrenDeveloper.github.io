@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bongren Junior - student, footballer and printing works enthusiast.">
+  <meta name="keywords" content="Bongren Junior, Bongren Junior Ghana, footballer, printing works">
+  <meta name="author" content="Bongren Junior">
+  <meta name="robots" content="index, follow">
+  <title>Bongren Junior | Student • Footballer • Printing Works</title>
+  <style>
+    :root{--bg:#07111f;--card:#0d1b2d;--text:#f5f7fb;--muted:#aab7c7;--accent:#35c8ff;--accent2:#6c63ff;--line:rgba(255,255,255,.1)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#07111f,#0a1424 45%,#07111f);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .container{width:min(1100px,92%);margin:auto}
+    header{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-weight:800;font-size:1.25rem;letter-spacing:.5px}
+    .logo span{color:var(--accent)}
+    .navlinks{display:flex;gap:24px;font-size:.95rem;color:var(--muted)}
+    .navlinks a:hover{color:white}
+    .hero{min-height:100vh;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px;padding-top:100px}
+    .eyebrow{display:inline-block;padding:7px 12px;border:1px solid rgba(53,200,255,.35);border-radius:999px;color:var(--accent);font-size:.82rem;margin-bottom:18px}
+    h1{font-size:clamp(3rem,8vw,6.5rem);line-height:.95;letter-spacing:-4px;margin-bottom:20px}
+    h1 span{background:linear-gradient(90deg,var(--accent),#8c83ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:1.2rem;color:var(--muted);max-width:620px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{padding:13px 19px;border-radius:12px;border:1px solid var(--line);font-weight:700}
+    .primary{background:linear-gradient(90deg,var(--accent2),var(--accent));color:white;border:none}
+    .photo-wrap{position:relative}
+    .photo-wrap:before{content:"";position:absolute;inset:-15px;border-radius:30px;background:linear-gradient(135deg,rgba(53,200,255,.22),rgba(108,99,255,.2));filter:blur(20px);z-index:-1}
+    .hero-photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;border-radius:30px;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+    section{padding:100px 0}
+    .section-title{font-size:2.3rem;margin-bottom:12px}
+    .section-sub{color:var(--muted);max-width:650px;margin-bottom:34px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:rgba(13,27,45,.8);border:1px solid var(--line);border-radius:20px;padding:26px}
+    .card h3{margin-bottom:8px}
+    .card p,.card li{color:var(--muted)}
+    .about{display:grid;grid-template-columns:.75fr 1.25fr;gap:45px;align-items:center}
+    .profile-photo{width:100%;border-radius:24px;border:1px solid var(--line)}
+    ul{list-style:none}
+    li{padding:8px 0;border-bottom:1px solid var(--line)}
+    li:last-child{border-bottom:0}
+    .tag{display:inline-block;margin:5px 5px 0 0;padding:7px 11px;border-radius:999px;background:rgba(53,200,255,.1);border:1px solid rgba(53,200,255,.2);font-size:.85rem}
+    footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);text-align:center}
+    .notice{font-size:.9rem;color:#91a1b5;margin-top:18px}
+    @media(max-width:800px){.navlinks{display:none}.hero,.about{grid-template-columns:1fr}.hero{padding-top:120px}.grid{grid-template-columns:1fr}h1{letter-spacing:-2px}.hero-photo{max-height:600px}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="container">
+    <a class="logo" href="#home">Bongren <span>Junior</span></a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="home">
+    <div class="container hero">
+      <div>
+        <div class="eyebrow">OFFICIAL PERSONAL WEBSITE</div>
+        <h1>Bongren <span>Junior</span></h1>
+        <p class="lead">Student • Footballer • Printing Works Enthusiast</p>
+        <p class="lead" style="margin-top:12px">Welcome to my personal website. Here you can learn more about me, my education, interests and achievements.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#about">Learn More</a>
+          <a class="btn" href="https://www.tiktok.com/@humbletiger50" target="_blank" rel="noopener">Visit My TikTok ↗</a>
+        </div>
+      </div>
+      <div class="photo-wrap"><img class="hero-photo" src="images/bongren-hero.webp" alt="Bongren Junior"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about">
+      <div><img class="profile-photo" src="images/bongren-profile.webp" alt="Bongren Junior profile photo"></div>
+      <div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-sub">My name is Bongren Junior. I am a Senior High School student with a passion for football, learning and printing works. I enjoy developing my skills and working toward my future goals.</p>
+        <div class="tag">Student</div><div class="tag">Football</div><div class="tag">Printing Works</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education & Achievement</h2>
+      <p class="section-sub">A quick look at my current education and an achievement I am proud of.</p>
+      <div class="grid">
+        <div class="card"><h3>🎓 Education</h3><p>Current education level: <strong style="color:white">Senior High School (SHS)</strong></p></div>
+        <div class="card"><h3>🏆 Best Student</h3><p>Recognized as <strong style="color:white">Best Student</strong> during the 2024/25 academic year.</p></div>
+        <div class="card"><h3>⚽ Football</h3><p>I am a good footballer and enjoy developing my football skills.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">What I Do</h2>
+      <p class="section-sub">My main interests and professional direction.</p>
+      <div class="grid">
+        <div class="card"><h3>🖨️ Printing Works</h3><p>Interested in printing and creative production work.</p></div>
+        <div class="card"><h3>⚽ Football</h3><p>Passionate about football and improving my abilities on the field.</p></div>
+        <div class="card"><h3>📚 Learning</h3><p>Focused on my education and building skills for the future.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Connect With Me</h2>
+      <p class="section-sub">Follow me on TikTok to see more of my content.</p>
+      <a class="btn primary" href="https://www.tiktok.com/@humbletiger50" target="_blank" rel="noopener">TikTok @humbletiger50 ↗</a>
+      <p class="notice">For privacy and safety, this public version does not display a personal phone number or email address.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© 2026 Bongren Junior. All rights reserved.</div>
+</footer>
+</body>
+</html>
